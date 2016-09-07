@@ -16,5 +16,6 @@ public class Redis4Java {
 	      System.out.println(jedis.get("javakey"));
 	      System.out.println(jedis.keys("*"));
 	      System.out.println(jedis.lrange("mylist", 0, 10));
+	      System.out.println(jedis.save());
 	}
 }
